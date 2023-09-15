@@ -1,0 +1,346 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-15T11:50:24.622Z",
+        "line": 4,
+        "name": "User is able to Open the browser, navigate to the URL and Search for Product",
+        "description": "",
+        "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7620569200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opened browser",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_opened_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18950243800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigated to the home application url",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_navigated_to_the_home_application_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8633618100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Search for product \"Laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptop\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_search_for_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1240042500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Search Result page is displayed with page title keyword contains \"Laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptop\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.search_result_page_is_displayed_with_page_title_keyword_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-15T11:51:01.246Z",
+        "line": 10,
+        "name": "User is able to Open the browser, navigate to the URL and Search for Product",
+        "description": "",
+        "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2084747500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User opened browser",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_opened_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7984792300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigated to the home application url",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_navigated_to_the_home_application_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5861560800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Search for product \"Mobile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mobile\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_search_for_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 601627000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Search Result page is displayed with page title keyword contains \"Mobile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mobile\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.search_result_page_is_displayed_with_page_title_keyword_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-15T11:51:17.809Z",
+        "line": 16,
+        "name": "User is able to Open the browser, navigate to the URL and Search for Product",
+        "description": "",
+        "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2040740400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User opened browser",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_opened_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14189200900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigated to the home application url",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_navigated_to_the_home_application_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7157578400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Search for product \"Headphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Headphone\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_search_for_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 975142400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Search Result page is displayed with page title keyword contains \"Headphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Headphone\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.search_result_page_is_displayed_with_page_title_keyword_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-15T11:51:42.195Z",
+        "line": 22,
+        "name": "User is able to Open the browser, navigate to the URL and Search for Product",
+        "description": "",
+        "id": "e-commerce-project-web-site-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1937411500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User opened browser",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_opened_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6449296400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User navigated to the home application url",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.user_navigated_to_the_home_application_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6555915800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Search for product \"power Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"power Bank\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.user_search_for_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 591634100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Search Result page is displayed with page title keyword contains \"power Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"power Bank\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.qa.automation.stepdefs.StepDefs.search_result_page_is_displayed_with_page_title_keyword_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          }
+        ]
+      }
+    ],
+    "name": "E-commerce Project Web Site Health Check",
+    "description": "",
+    "id": "e-commerce-project-web-site-health-check",
+    "keyword": "Feature",
+    "uri": "classpath:features/HealthCheck.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@healthcheck",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 5
+        }
+      }
+    ]
+  }
+]
